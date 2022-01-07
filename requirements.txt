@@ -1,0 +1,7 @@
+streamlit
+matplotlib
+seaborn
+pandas
+tensorflow-cpu
+split-folders
+opencv-python
