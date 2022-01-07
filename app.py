@@ -1,5 +1,5 @@
 import streamlit as st
-import helper
+from helper import predict
 
 st.set_page_config(
      page_title="Simpsons Recognision System",
@@ -13,6 +13,7 @@ st.set_page_config(
      }
 )
 
+st.title("Simpsons Recognision System")
 st.sidebar.title("Hello World")
 
 file_type = ['png', 'jpg']
@@ -20,4 +21,9 @@ uploaded_file = st.sidebar.file_uploader("Upload Your WhatsApp Group Exported (w
 
 
 if uploaded_file is not None:
-    pass
+    st.header("The Image you have choose is of: ")
+    st.image(uploaded_file)
+    with open("cache/"+ uploaded_file.name, "wb") as f:
+        f.write(uploaded_file.getbuffer())
+    predict = predict(uploaded_file.name)
+    st.header(predict)

@@ -9,15 +9,10 @@ model = load_model('model/model.h5')
 labels = pickle.load(open('model/labels.pkl','rb'))
 
 
-def plotimg(img):
-    image = cv2.imread(img)
-    image = cv2.resize(image, (512,512))
-    plt.imshow(cv2.cvtColor(image, cv2.COLOR_BGR2RGB)); plt.axis('off')
-    return
 
-
-
-def predict(img, model, labels):
+def predict(img):
+    imgpath = "cache/"+img
+    img = load_img(imgpath, target_size=(64,64,3))
     img_array = img_to_array(img)
     img_batch = np.expand_dims(img_array, axis=0)
     prediction = model.predict(img_batch)
