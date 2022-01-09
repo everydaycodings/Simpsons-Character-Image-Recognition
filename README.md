@@ -7,7 +7,7 @@
 
 ## **Simpsons Face Recognision** web app can predict 43 different kind of Simpsons Faces with 93% overall validation accuracy.
 
-#### Upcomming Features of this WebApp:
+#### Upcomming Features for this WebApp:
 - Multilebel classification system for images 
 - Multiple classification system for *vedios*
 - More pleasant looking UI and many more... 
