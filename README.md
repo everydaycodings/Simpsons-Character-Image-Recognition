@@ -5,7 +5,7 @@
 ![Data](https://img.shields.io/badge/Dataset-Simpsons-red)
 
 
-## **Simpsons Face Recognision** uses your Whatsapp data and analysis it and extracts insides from your cart history.
+## **Simpsons Face Recognision** web app can predict 43 different kind of Simpsons Faces.
 
 #### Upcomming Features of this WebApp:
 - Multilebel classification system for images 
