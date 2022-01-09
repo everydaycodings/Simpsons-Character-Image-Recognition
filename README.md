@@ -5,7 +5,7 @@
 ![Data](https://img.shields.io/badge/Dataset-Simpsons-red)
 
 
-## **Simpsons Face Recognision** web app can predict 43 different kind of Simpsons Faces.
+## **Simpsons Face Recognision** web app can predict 43 different kind of Simpsons Faces with 93% overall validation accuracy.
 
 #### Upcomming Features of this WebApp:
 - Multilebel classification system for images 
