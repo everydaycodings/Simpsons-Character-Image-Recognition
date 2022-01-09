@@ -39,7 +39,7 @@ Source Code: [github link](https://github.com/everydaycodings/Simpsons-Character
 
 ![IMG-folder_directory](https://github.com/everydaycodings/Simpsons-Character-Image-Recognition/blob/master/images/folder_directory.png)
 
-## Source to the Pre-trained Modles and Datasets
+## Source to the Pre-trained Modles
 #### Click [here](https://mega.nz/folder/4aI10KQa#idFs-G7riCJXqf2Ee8lVZA) to download the Pretrained model for this classification whaich has arround 93% val_accuracy.
 ### you can also check my [Kaggle page](https://www.kaggle.com/everydaycodings/simpsons-image-classification-cnn-val-acc-93) to see how i have obtained this accuracy and you can manupulate the code as your need.
 
