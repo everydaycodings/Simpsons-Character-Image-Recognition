@@ -13,7 +13,7 @@
 - More pleasant looking UI and many more... 
 
 
-Check out the live demo: **Comming Soon**
+Check out the live demo: **Comming Soon**(After Project Completion)
 
 ### Vedio demo:
 <p><img  alt="GIF" src="https://github.com/everydaycodings/Simpsons-Character-Image-Recognition/blob/master/images/live_demo.gif" width="800" height="450" /></p>
