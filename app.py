@@ -13,8 +13,17 @@ st.set_page_config(
      }
 )
 
-st.title("Simpsons Recognision System")
-st.sidebar.title("Hello World")
+st.sidebar.title("Simpsons Recognision System")
+
+
+with open('sample/sample.zip', 'rb') as f:
+   st.sidebar.download_button(
+        label="Download Sample Data and Use It",
+        data=f,
+        file_name='smaple_data.zip',
+        help = "Download some sample image data and use it to explore this web app."
+    )
+
 
 file_type = ['png', 'jpg']
 uploaded_file = st.sidebar.file_uploader("Upload Your WhatsApp Group Exported (without Media) txt file",type=file_type)
